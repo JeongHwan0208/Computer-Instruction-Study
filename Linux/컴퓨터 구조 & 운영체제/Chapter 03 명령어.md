@@ -4,18 +4,18 @@
 
 ###### 고급 언어와 저급 언어
 
-​	![2-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-1.jpg)
+​	![2-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-1.jpg
+)
 
 - **고급 언어** : 컴퓨터가 이해하는 언어가아닌 사람이 이해하고 작성하기 쉽게 만들어진 언어
 - **저급 언어** : 컴퓨터가 직접 이해하고 실행할 수 있는 언어
 - **기계어** : 0과 1의 명령어 비트로 이루어진 언어
 - **어셈블리어** : 0과 1로 표현된 명령어를 읽기 편한 형태로 변역한 언
 
-![3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-2.jpg)
-
+![3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-2.jpg)
 ###### 컴파일 언어와 프리티 언어
 
-![2-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-3.jpg)
+![2-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-3.jpg)
 
 **컴파일 언어**
 
@@ -41,7 +41,7 @@
 
 ###### 연산 코드와 오퍼랜드
 
-![2-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-4.jpg)
+![2-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-4.jpg)
 
 **연산코드** : 명령어가 수행할 연산 (연산자)
 
@@ -55,7 +55,7 @@
 
  오퍼랜드 필드에는 숫자와 문자 등을 나타내는 데이터 또는 메모리나 레지스터 주소가 올 수 있다. 다만 오퍼랜드 필드에는 숫자나 문자와 같이 연산에 사용할 데이터를 직접 명시하기보다는, 많은 경우 연산에 사용할 데이터가 저장된 위치, 즉 메모리 주소나 레지스터 이름이 담깁니다. 그래서 오퍼랜드 필드를 **주소 필드**라고 부르기도 한다.
 
-![2-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-5.jpg)
+![2-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-5.jpg)
 
 - **0-주소 명령어** : 오퍼랜드가 하나도 없는 명령어
 - **1-주소 명령어** : 오퍼랜드가 하나인 명령어
@@ -102,7 +102,7 @@
 
 - **즉시 주소 지정 방식**
 
-![2-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-6.jpg)
+![2-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-6.jpg)
 
  연산에 사요할 데이터를 오퍼랜드 필드에 직접 명시하는 방식 
 
@@ -112,7 +112,7 @@
 
 - **직접 주소 지정 방식**
 
-![2-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-7.jpg)
+![2-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-7.jpg)
 
  오퍼랜드 필드에 유효 주소를 직접적으로 명시하는 방법
 
@@ -120,7 +120,7 @@
 
 - **간점 주소 지정 방식**
 
-![2-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-8.jpg)
+![2-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-8.jpg)
 
  유효 주소의 주소를 오퍼랜드 필드에 명시하는 방법
 
@@ -128,7 +128,7 @@
 
 - **레지스터 주소 지정 방식**
 
-![2-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-9.jpg)
+![2-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-9.jpg)
 
  직접 주소 지정 방식과 비슷하게 연산에 사용할 데이터를 저장한 레지스털를 오퍼랜드에 직접 명시하는 방법
 
@@ -136,7 +136,7 @@
 
 - **레지스터 간접 주소 지정 방식**
 
-  ![2-10](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-10.jpg)
+  ![2-10](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-10.jpg)
 
    연산에 사용할 데이터를 메모리에 저장하고, 그 주소를 저장한 레지스터를 오퍼랜드 필드에 명시하는 방법
 
@@ -144,14 +144,14 @@
 
 ###### 스택과 큐
 
-![2-11](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-11.jpg)
+![2-11](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-11.jpg)
 
 **스택** : 한쪽 끝이 막혀 있는 통과 같은 저장 공간이다. 한쪽 끝이 막혀 있어서 막혀 있지 않은 쪽으로 데이터를 차곡차곡 저장하고. 저장한 자료를 빼낼 때는 마지막으로 저장한 데이터부터 빼낸다. **스택은 '나중에 저장한 데이터를 가장 먼저 빼내는 데이터 관리 방식(후입선출)'으로 LIFO(last in first out)자료구조라고도 부른다.**
 
 - PUSH : 스택에 새로운 데이터를 저장하는 명령어
 - POP : 스택에 저장된 데이터를 꺼내는 명령어
 
-![2-12](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\2-12.jpg)
+![2-12](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/2-12.jpg)
 
 **큐** : 양쪽이 뚫려 있는 통과 같은 저장공간이다. 한쪽으로는 데이터를 저장하고, 다른 한쪽으로는 먼저 저장한 순서대로 데이터를 빼낸다.
 
