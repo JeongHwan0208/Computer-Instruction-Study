@@ -26,7 +26,7 @@
 
  입출력장치(input/output device)
 
-![1-2](Linux/컴퓨터 구조 & 운영체제/컴퓨터 구조 & 운영체제 image/1-2.jpg)
+![(Linux/컴퓨터 구조 & 운영체제/컴퓨터 구조 & 운영체제 image/1-2.jpg)](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/1-2.jpg)
 
 ###### 메모리
 
