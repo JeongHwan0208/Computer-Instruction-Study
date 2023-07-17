@@ -4,13 +4,14 @@
 
 ###### ALU
 
-![3-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-1.jpg)
+![3-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-1.jpg
+)
 
 **ALU**는 레지스터를 통해 **피연산자**를 받아들이고, 제어장치로부터 수행할 연산을 알려주는 **제어 신호**를 받아들입니다. 
 
 ALU가 내보내는 정보 : 연산을 수행한 결과는 특정 숫자나 문자가 될 수도 있고, 메모리 주소가 될 수도 있습니다. 그리고 이 결괏값은 바로 메모리에 저장되지 않고 일기적으로 레지스터에 저장됩니다. 또한 ALU는 계산결과와 더불어 플래그를 내보냅니다. **플래그**는 연산 결과에 대한 추가적인 상태 정보를 나타냅니다.
 
-![3-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-2.jpg)
+![3-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-2.jpg)
 
 |    플래그 종류     |                             의미                             |                          사용 예시                           |
 | :----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -23,7 +24,7 @@ ALU가 내보내는 정보 : 연산을 수행한 결과는 특정 숫자나 문�
 
 ###### 제어장치
 
-![3-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-3.jpg)
+![3-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-3.jpg)
 
 **제어장치**는 제어 신로를 내보내고, 명령어를 해석하는 부품이다. **제어 신호**는 컴퓨터 부품들을 관리하고 작동시키기 위한 일종의 전기 신호이다.
 
@@ -64,38 +65,38 @@ CPU가 해석해야 할 명령어는 **명령어 레지스터**라는 특별한 
 
 
 
-![3-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-4.jpg)
+![3-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-4.jpg)
 
 2. 프로그램을 처음부터 실행사기 위해프로그램 카운터에는 1000이 저장된다. 이는 메모리에서 가져올 명령어가 1000번지에 있다는 걸 의미한다.
 
-![3-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-5.jpg)
+![3-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-5.jpg)
 
 3. 1000번지를 읽어 들이기 위해서는 주소 버스로 1000번지를 내보내야 한다. 이를 위해 메모리 주소 레지스터에는 1000이 저장된다.
 
-![3-13](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-13.jpg)
+![3-13](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-13.jpg)
 
 4. '메모리 읽기' 제어 신호와 메모리 주소 레지스터 값이 각각 제어 버스와 주소 버스를 통해 메모리로 보내진다.
 
-![3-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-6.jpg)
+![3-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-6.jpg)
 
 5. 메모리 1000번지에 저장된 값은 데이터 버스를 통해 메모리 버퍼 레지스터로 전달되고, 프로그램 카운터는 증가되어 다음 명령어를 읽어 들일 준비를 합니다.
 
-![3-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-7.jpg)
-
+![3-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-7.jpg
+)
 6. 메모리 버퍼 레지스터에 저장된 값은 명령어 레지스터로 이동합니다.
 
-![3-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-8.jpg)
+![3-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-8.jpg)
 
 7. 제어장치는 명령어 레지스터의 명령어를 해석하고 제어 신호를 발생시킵니다.
 
-   ![3-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-9.jpg)
+   ![3-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-9.jpg
+)
 
 이처럼 프로그램 카운터는 지속적으로 증가하며 계쏙해서 다음 명령어를 읽어 들일 준비를 합니다. 이 과정이 반복되면서 CPU는 프로그램을 차례대로 실행해 나갑니다. 결국 CPU가 메모리 속 프로그램을 순차적으로 읽어 들이고 실행해 나갈 수 있는 이유는 CPU 속 프로그램 카운터가 꾸준히 증가하기 때문입니다.
 
 ### 특정 레지스터를 이용한 주소 지정 방식(1) : 스택 주소 지정 방식
 
-![3-10](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-10.jpg)
-
+![3-10](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-10.jpg)
 **스택 주소 지정 방식**은 스택과 스택 포인터를 이용한 주소 지정 방식이다.
 
 **스택 포인터**란 스택의 꼭대기를 가리키는 레지스터이다. 즉 스택 포인터는 스택에 마지막으로 저장한 값의 위치를 저장하는 레지스터이다.
@@ -110,23 +111,23 @@ CPU가 해석해야 할 명령어는 **명령어 레지스터**라는 특별한 
 
 ###### 상대 주소 지정 방식
 
-![3-11](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-11.jpg)
+![3-11](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-11.jpg)
 
 **상대 주소 지정 방식**은 오퍼랜드와 프로그램 카운터의 값을 더하여 유효 주소를 얻는 방식이다. 프로그램 카운터에는 읽어 들일 명령어의 주소가 저장되어 있다. 만약 오퍼랜드가 음수 -3 이라면 CPU는 읽어 들이기로 한 명령어로부터 '세 번째 이전'번지로 접근합니다. 한마디로 실행하려는 명령어의 세 칸 이전 번지 명령어를 실행하는 것이다. 상대 주소 지정 방식은 프로그래밍 언어의 IF문과 유사하게 모든 코드를 실행하는 것이 아닌, 분기하여 특정 주소의 코드를 실행할 때 사용된다.
 
 ###### 베이스 레지스터 주소 지정 방식
 
-![3-12](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-12.jpg)
+![3-12](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-12.jpg)
 
 **베이스 레지스터 주소 지정 방식**은 오퍼랜드와 베이스 레지스터의 값을 더하여 유효 주소를 얻는 방식이다. 여기서 베이스 레지스터는 '기준 주소', 오퍼랜드는 '기준 주소로부터 떨어진 거리'로서의 역할을 한다. 즉 베이스 레지스터 주소 지정 방식은 베이스 레지스터 속 기준 주소로부터 얼마나 떨어져 있는 주소에 접근 할 것인지를 연산하여 유효 주소를 얻는 방법이다.
 
 ### 04-3명령어 사이클과 인터럽트
 
-![3-14](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-14.jpg)
+![3-14](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-14.jpg)
 
 **명령어 사이클** : 실행하는 프로그램은 수 많은 명령어로 이루어져 있고, CPU는 이 명령어들을 하나씩 실행한다. 이때 프로그램 속 각각의 명령어들은 일정한 주기가 반복되며 실행된다. 이때 주기가 명령어 사이클이다.
 
-![3-15](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-15.jpg)
+![3-15](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-15.jpg)
 
 **인출 사이클** : 메모리에 있는 명령어를 CPU로 가지고 오는 단계
 
@@ -136,7 +137,7 @@ CPU가 해석해야 할 명령어는 **명령어 레지스터**라는 특별한 
 
 ### 인터럽트
 
-![3-16](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\3-16.jpg)
+![3-16](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/3-16.jpg)
 
 **인터럽트** : CPU가 수행 중인 작업은 방해 받아 잠시 중단될 수 있다. 이렇게 CPU의 작업을 방해하는 신호를 의미한다.
 
