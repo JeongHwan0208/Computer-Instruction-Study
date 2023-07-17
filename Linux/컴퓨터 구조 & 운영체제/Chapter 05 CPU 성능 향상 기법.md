@@ -83,7 +83,7 @@
 3. 명령어 실행
 4. 결과 저장
 
-![4-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\4-6.jpg)
+![4-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/4-6.jpg)
 
 이처럼 마치 공장 생산 라인과 같이 명령어들을 **명령어 파이프라인**에 넣고 동시에 처리하는 기법을 **명령어 파이프라이닝**이라고 한다.
 
