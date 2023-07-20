@@ -4,7 +4,7 @@
 
 **RAM의 특징**
 
-![5-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-1.jpg)
+![5-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-1.jpg)
 
 **휘발성 저장 장치(RAM)** : 전원을 끄면 저장된 내용이 사라지는 저장 장치, 실행할 대상을 저장한다.
 
@@ -47,13 +47,14 @@ SDRAM은 클럭신호와 동기화된, 발전된 DRAM이다. 클럭 타이밍에
 
 DDR SDRAM은 최근 가장 흔히 사용되는 RAM이다. DDR SDRAM은 대역폭을 넓혀 속도를 빠르게 만든 SDRAM이다. **대역폭**이란 '데이터를 주고받는 길의 너비'를 의미한다.
 
- ![5-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-2.jpg)
+ ![5-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-2.jpg)
 
 한 클럭에 하나씩 정보를 주고받을 수 있는 SDRAM과 비교했을 때 DDR SDRAM은 너비가 두배인 도로와 같다. 즉, 한 클럭에 한 번씩 CPU와 데이터를 주고받을 수 있는 SDRAM에 비해 DDR SDRAM은 두배로 한 클럭당 두 번씩 CPU와 데이터를 주고받을 수 있다. 이런 이유로 한 클럭당 하나씩 데이터를 주고받을 수 있는 SDRAM을 **SDR SDRAM**라 부르기도 한다.
 
 ### 06-2 메모리 주소 공간
 
-![5-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-3.jpg)
+![5-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-3.jpg
+)
 
 **물리 주소** : 메모리 하드웨어가 사용하는 주소
 
@@ -72,7 +73,7 @@ DDR SDRAM은 최근 가장 흔히 사용되는 RAM이다. DDR SDRAM은 대역폭
 
 논리 주소와 물리 주소 간의 변환은 CPU와 주소 버스 사이에 위치한 **메모리 관리 장치(MMU)**라는 하드웨어에 의해 수행된다.
 
-![5-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-4.jpg)
+![5-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-4.jpg)
 
 MMU는 CPU가 발생시킨 논리 주소에 베이스 레지스터 값을 더하여 논리 주소를 물리 주소로 변환한다.
 
@@ -86,7 +87,8 @@ MMU는 CPU가 발생시킨 논리 주소에 베이스 레지스터 값을 더하
 
 프로그램의 논리 주소 영역을 벗어나는 명령어들은 실행되어서는 안 된다. 이런 명령어들이 실행 된다면 명령어는 자신과는 전혀 관련없는 프로그램에 실행된다. 이런 명령어들의 실행을 방지하고 실행 중인 프로그램이 다른 프로그램에 영향을 받지 않도록 보호할 방법이 필요하다. 이는 **한계 레지스터**라는 레지스터가 담당합니다.
 
-![5-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-5.jpg)
+![5-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-5.jpg
+)
 
 CPU는 메모리에 접근하기 전에 접근하고자 하는 논리 주소가 한계 레지스터보다 작은지를 항상 검사한다. 만약 CPU가 한계 레지스터보다 높은 논리 주소에 접근하려고 하면 인터럽트(트랩)을 발생시켜 중단한다.
 
@@ -101,7 +103,7 @@ CPU는 프로그램을 실행하는 과정에서 메모리에 저장된 데이�
 1. CPU와 가까운 저장 장치는 빠르고, 멀리 있는 저장 장치는 느리다.
 2. 속도가 빠른 저장 장치는 용량이 작고, 가격이 비싸다.
 
-![5-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-6.jpg)
+![5-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-6.jpg)
 
 컴퓨터가 사용하는 저장 장치들은 'CPU에 얼마나 가까운가'를 기준으로 계층적으로 나타낸 것을 **저장 장치 계층 구조**라고 한다.
 
@@ -109,7 +111,7 @@ CPU는 프로그램을 실행하는 과정에서 메모리에 저장된 데이�
 
 캐시 메모리는 CPU와 메모리 사이에 위치하고, 레지스터보다 용량이 크고 메모리보다 빠른 SRAM 기반의 저장 장치이다.
 
-![5-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\5-7.jpg)
+![5-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/5-7.jpg)
 
 캐시 메모리는 CPU의 연산 속도와 메모리 접근 속도의 차이를 조금이나마 줄이기 위해 탄생했다. CPU가 매번 메모리에 왔다 갔다 하는 건 시간이 오래 걸리니, 메모리에서 CPU가 사용할 일부 데이터를 미리 캐시 메모리로 가지고 와서 활용하는 것이다.
 
