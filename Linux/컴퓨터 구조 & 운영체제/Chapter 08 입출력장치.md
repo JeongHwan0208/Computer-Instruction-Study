@@ -24,13 +24,13 @@
 
 **데이터 버퍼링**이란 **버퍼링**은 전송률이 높은 장치와 낮은 장치 사이에 주고받는 데이터를 **버퍼**라는 임시 저장 공간에 저장하여 전송률을 비슷하게 맞추는 방법이다. 
 
-![7-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-1.jpg)
+![7-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-1.jpg)
 
-![7-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-2.jpg)
+![7-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-2.jpg)
 
 **장치 컨트롤러의 간략화된 내부 구조**
 
-![7-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-4.jpg)
+![7-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-4.jpg)
 
 - **데이터 레지스터**는 CPU와 입출력장치 사이에 주고받을 데이터가 담기는 레지스터이다. 장치 컨트롤러는 데이터 버퍼링으로 전송률 차이를 완화한다. 이때 데이터 레지스터가 그 버퍼 역할을 한다.
 - **상태 레지스터**는 입출력장치가 입출력 작업을 할 준비가 되었는지, 입출력 작업이 완료 되었는지, 입출력장치에 오류는 없는지 등의 상태 정보가 저장된다.
@@ -42,7 +42,7 @@
 
 장치 드라이버란 장치 컨트롤러의 동작을 감지하고 제어함으로써 장치 컨트롤러가 컴퓨터 내부와 정보를 주고받을 수 있게 하는 프로그램이다. 프로그램이기에 당연히 실행 과정에서 메모리에 저장되며, 장치 컨트롤러가 입출력장치를 연결하기 위한 하드웨어적인 통로라면, 장치 드라이버는 입출력장치를 연결하기 위한 소프트웨어적 통로이다.
 
-![7-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-5.jpg)
+![7-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-5.jpg)
 
 ### 08-2 다양한 입출력 방법
 
@@ -54,15 +54,15 @@
 
 1. '메모리에 저장된 정보를 하드 디스크에 백업한다.' 우선 CPU는 하드디스크 컨트롤러의 제어 레지스터에 쓰기 명령을 보낸다.
 
-​	![7-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-6.jpg)
+​	![7-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-6.jpg)
 
 2. 하드 디스크 컨트롤러는 하드 디스크 상태를 확인한다. 하드 디스크가 준비된 상태라면 하드 디스크 컨트롤러는 상태 레지스터에 준비되었다고 표시한다.
 
-   ![7-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-7.jpg)
+   ![7-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-7.jpg)
 
 3. 1 CPU는 상태 레지스터를 주기적으로 읽어보며 하드 디스크의 준비 여부를 확인한다. 2 하드 디스크가 준비됐음 CPU가 알게 되면 백업할 메모리의 정보를 데이터 레지스터에 쓴다. 아직 백업 작업이 끝나지 않았다면 1번부터 반복하고, 쓰기가 끝났다면 작업을 종료한다.
 
-![7-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-8.jpg)
+    ![7-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-8.jpg)
 
 **CPU가 장치 컨트롤러의 레지스터들을 아는 방식**
 
@@ -70,7 +70,7 @@
 
 메미로 앱 입출력은 메모리에 접그하기 위한 주소 공간과 입출력장치에 접근하기 위한 주소 공간과 입출력장치에 접근하기 위한 주소 공간을 하나의 주소 공간으로 간주하는 방법이다.
 
-![7-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-9.jpg)
+![7-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-9.jpg)
 
 ​	중요한 점은 메모리 맵 입출력 방식에서 CPU는 메모리의 주소들이나 장치 컨트롤러의 레지스터들이나 모두 똑같이 메모리 주소를 대하듯 된다는 점이다. 그래서 메모리에 접근하는 명령어와 입출력장치에 접근하는 명령어는 굳이 다를 필요가 없다.
 
@@ -78,7 +78,7 @@
 
 고립형 입출력은 메모리를 위한 주소 공간과 입출력장치를 위한 주소 공간을 분리하는 방법이다.
 
-![7-10](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-10.jpg)
+![7-10](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-10.jpg)
 
 고립형 입출력 방식에는 CPU는 입출력장치에 접근하기 위해 메모리에 접근하는 명령어와는 다른 (입출력 읽기/쓰기 선을 활성화시키는) 입출력 명령어를 사용한다. 메모리에 접근하는 명령어와 입출력장치에 접근하는 명령어는 굳이 다를 필요가 없었던 메모리 맵 입출력과 대조적이다.
 
@@ -90,8 +90,7 @@
 
 **인터럽트 기반 입출력**
 
-​	![7-11](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-11.jpg)
-
+​	![7-11](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-11.jpg)
 CPU는 장치 컨트롤러에 입출력 작업을 명령하고 장치 컨트롤러가 입출력장치를 제어하며 입출력을 수행하는 동안 CPU는 다른 일을 할 수 있다. 
 
 장치 컨트롤러가 입출력 작업을 끝낸 뒤 CPU에게 인터럽트 요청 신호를 보내면 CPU는 하던 일을 잠시 백업하고 인터럽트 서비스 루틴을 실행한다.
@@ -102,12 +101,11 @@ CPU는 장치 컨트롤러에 입출력 작업을 명령하고 장치 컨트롤�
 
 - **인터럽트 A의 우선순위가 B보다 높은 경우**
 
-![7-12](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-12.jpg)
+![7-12](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-12.jpg)
 
 - **인터럽트 A의 우선순위가 B보다 낮은 경우**
 
-![7-13](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-13.jpg)
-
+![7-13](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-13.jpg)
 ​	플래그 레지스터 속 인터럽트 비트가 활성화되어 있은 경우, 혹은 인터럽트 비트를 비활성화해도 무시할 수 없는 인터럽트인 **NMI**가 발생한 경우 CPU는 이렇게 우선순위가 높은 인터럽트부터 처리한다.
 
 **프로그래머블 인터럽트 컨트롤러(PIC)**
@@ -136,7 +134,7 @@ DMA는 이름 그대로 직접 메모리에 접근할 수 있는 입출력 기�
 
 ***DMA 입출력 과정***
 
-![7-14](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-14.jpg)
+![7-14](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-14.jpg)
 
 1. CPU는 DMA 컨트롤러에 입출력장치의 주소, 수행할 연산(읽기/쓰기), 읽거나 쓸 메모리의 주소 등과 같은 정보로 입출력 작업을 명령한다.
 2. DMA 컨트롤러는 CPU 대신 장치 컨트롤러와 상호작용하며 입출력 작업을 수행한다. 이때 DMA 컨트롤러는 필요한 경우 메모리에 접근하여 정보를 읽거나 쓴다.
@@ -148,7 +146,7 @@ DMA는 이름 그대로 직접 메모리에 접근할 수 있는 입출력 기�
 
 DMA를 위해 시스템 버스를 너무 자주 사용하면 그만큼 CPU가 시스템 버스를 이용하지도 못한다. 이 문제는 DMA 컨트롤러와 장치 컨트롤러들을 **입출력 버스**라는 별도의 버스에 연결하여 해결할 수 있다.
 
-![7-15](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\7-15.jpg)
+![7-15](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/7-15.jpg)
 
 현대 대부분 컴퓨터에는 입출력 버스가 있다. 다시 말해 대부분의 입출력장치(장치 컨트롤러)는 시스템 버스가 아닌 입출력 버스와 연결된다. 
 
