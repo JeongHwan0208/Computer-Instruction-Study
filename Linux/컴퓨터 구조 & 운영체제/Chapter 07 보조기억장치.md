@@ -6,7 +6,8 @@
 
 하드 디스크는 자기적인 방식으로 데이터를 저장하는 보조기억장치이다.
 
- ![6-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-1.jpg)
+ ![6-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-1.jpg
+)
 
 하드 디스크는 동그란 원판에 데이터를 저장하고, 그것을 회전시켜 뾰족한 리더기로 데이터를 읽는다.
 
@@ -21,7 +22,7 @@
 
 ***플래터에 데이터가 저장되는 방법***
 
-![6-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-2.jpg)
+![6-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-2.jpg)
 
 플래터는 **트랙**과 **섹터**라는 단위로 데이터를 저장한다. 플래터를 여러 동심원으로 나누었을 때 그중 하나의 원을 **트랙**이라고 부르며, 트랙은 여러 조각으로 나누어지는데, 이 한 조각을 **섹터(하드 디스크의 가장 작은 단위)**라고 부른다.
 
@@ -37,15 +38,15 @@
 
 - **탐색 시간** : 접근하려는 데이터가 저장된 트랙까지 헤드를 이동시키는 시간을 의미 
 
-  ![6-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-3.jpg)
+  ![6-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-3.jpg)
 
 - **회전 지연** : 헤드가 있는 곳으로 플래터를 회전시키는 시간을 의미
 
-![6-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-4.jpg)
+![6-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-4.jpg)
 
 - **전송 시간** : 하드 디스크와 컴퓨터 간에 데이터를 전송하는 시간을 의미
 
-![6-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-5.jpg)
+![6-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-5.jpg)
 
 탐색 시간과 회전 지연을 단축시키기 위해서는 플래터를 빨리 돌려 RPM을 높이는 것도 중요하지만, 접근하려는 데이터가 플래터 혹은 헤드를 조금만 옮겨도 접근할 수 있는 곳에 위치해 있는 것도 중요하다.
 
@@ -59,7 +60,7 @@
 
 - **SLC 타입** :  한 셀에 2비트를 저장할 수 있는 플래시 메모
 
-  ![6-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-6.jpg)
+  ![6-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-6.jpg)
 
   **특징**
 
@@ -69,7 +70,7 @@
 
 - **MLC 타입** : 한 셀에 2비트를 저장할 수 있는 플래시 메모리
 
-![6-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-7.jpg)
+![6-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-7.jpg)
 
 ​	**특징**
 
@@ -80,7 +81,7 @@
 
 - **TLC 타입** : 한 셀에 3비트를 저장할 수 있는 플래시 메모리
 
-![6-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-8.jpg)
+![6-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-8.jpg)
 
 ​	**특징**
 
@@ -99,7 +100,7 @@
 
 ***셀보다 더 큰 단위***
 
-![6-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-9.jpg)
+![6-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-9.jpg)
 
 - **페이지** : 셀들이 모여 만들어진 단위
 - **블록** : 페이지가 모여 만들어진 단위, **삭제가 이루어지는 단위**
@@ -118,11 +119,11 @@
 
 - 새로운 데이터 c 저장
 
-![6-10](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-10.jpg)
+![6-10](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-10.jpg)
 
 - A를 A'로 수정
 
-![6-11](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-11.jpg)
+![6-11](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-11.jpg)
 
 플래시 메모에서 덮어쓰기는 불가능 하기 떄문에 기존에 저장된 A는 Invaild 상태가 되어 더 이상 값이 유효하지 않은 쓰레기 값이 되고, 새로운 데이터 A' 데이터가 저장된다. 결과적으로 Vaild 페이지는 B, C, A'가 된다.
 
@@ -130,7 +131,7 @@
 
 **가비지 컬렉션**
 
-![6-12](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-12.jpg)
+![6-12](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-12.jpg)
 
 ​	**기능**
 
@@ -149,7 +150,7 @@ RAID의 구성 방법을 **RAID 레벨**로 표현하는데, RAID 레벨에는 �
 
 - **RAID 0**
 
-![6-13](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-13.jpg)
+![6-13](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-13.jpg)
 
 어떠한 데이터를 저장할 때 각 하드 디스크는 아래와 같이 번갈아 가며 데이터를 저장한다. 즉, 저장되는 데이터가 하드 디스크 개수만큼 나뉘어 저장된느 것이다. 이때 마치 줄무늬처럼 분산되어 저장된 데이터를 **스트라입**이라 하고, 분산되어 저장하는 것을 **스트라이핑**이라고 한다. 데이터가 분산되어 저장되면, 저장된 데이터를 읽고 쓰는 속도가 빨라진다.                                                                                             하나의 저장 장치를 이용했더라면 여러 번에 걸쳐 읽고 썼을 데이터를 동시에 읽고 쓸 수 있기 때문이다.
 
@@ -157,7 +158,7 @@ RAID 0 에 단점은 저장된 정보가 안전하지 않다. RAID 0으로 구�
 
 - **RAID 1**
 
-  ![6-14](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-14.jpg)
+  ![6-14](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-14.jpg)
 
 RAID 1은 복사본을 만드는 방식이다.  마치 거울처럼 완전한 복사본을 만드는 구성이기에 **미러링**이라고도 부른다.
 
@@ -165,7 +166,7 @@ RAID 1에 어떠한 데이터를 쓸 때는 원본과 복사본 두군데에 쓴
 
 - **RAID 4**
 
-![6-15](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-15.jpg)
+![6-15](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-15.jpg)
 
 RAID 4 는 RAID 1처럼 완전한 복사본을 만드는 대신 오류를 검출하고 복구하기 위한 정보를 저장한 장치를 두눈 구성 방식이다. 이때 '오류를 검출하고 복구하기 위한 정보'를 **패리티 비트**라고 한다. 이렇게 패리티를 저장한 장치를 이용해 다른 장치들의 오류를 검출하고, 오류가 있다면 복구한다.
 
@@ -173,12 +174,12 @@ RAID 4 는 RAID 1처럼 완전한 복사본을 만드는 대신 오류를 검출
 
 RAID 4에서는 어떤 데이터가 저장될 때마다 패리티를 저장하는 디스크에도 데이터를 쓰게 되므로 패리티를 저장하는 장치에 병목 현상이 발생한다는 문제가 있다.
 
-![6-16](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-16.jpg)
+![6-16](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-16.jpg)
 
 RAID 5는 그림처럼 패리티 정보를 분산하여 저장하는 방식으로 RAID 4의 문제인 병목 현상을 해소한다.
 
 - **RAID 6**
 
-![6-17](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\6-17.jpg)
+![6-17](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/6-17.jpg)
 
 RAID 6의 구성은 기본적으로 RAID 5와 같으나, 서로 다른 두 개의 패리티를 두는 방식이다. 이는 오류를 검출하고 복구할 수 있는 수단이 두개가 생긴 샘으로 RAID 4나 RAID 5보다 안전한 구성이라 볼 수 있다. 다만 새로운 정보를 저장할 때마다 함께 저장할 패리티가 두 개 이므로, 쓰기 속도는 RAID 5보다 느리다. 따라서 데이터 저장 속도를 조금 희생하더라도 데이터를 더욱 안전하게 보관하고 싶을 때 사용하는 방식이다.
