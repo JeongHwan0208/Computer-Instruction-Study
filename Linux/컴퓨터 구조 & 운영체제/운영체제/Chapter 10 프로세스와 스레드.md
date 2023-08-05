@@ -2,7 +2,7 @@
 
 ## 10-1 프로세스 개요
 
-![9-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-1.jpg)
+![9-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-1.jpg)
 
 '실행 중인 프로그램' 을**프로세스**라 한다. 프로그램은 실행되기 전까지 보조기억장치에 있는 데이터 덩어리일 뿐이지만, 보조기억장치에 저장된 프로그램을 메모리에 적재하고 실행하는 순간 그 프로그램은 프로세스가 된다.
 
@@ -17,11 +17,11 @@
 
 ### 프로세스 제어 블록
 
-![9-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-2.jpg)
+![9-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-2.jpg)
 
 프로세스들은 차례대로 돌아가며 한정된 시간만큼만 CPU를 이용한다. 자신의 차례가 되면 정해진 시간만큼 CPU를 이용하고, 시간이 끝났음을 알리는 인터럽트(타이머 인터럽트)가 발생하면 자신의 차례를 양보하고 다음 차례가 올 때까지 기다린다.
 
-![9-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-3.jpg)
+![9-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-3.jpg)
 
 운영체제는 빠르게 번갈아 수행되는 프로세스의 실행 순서를 관리하고, 프로세스에 CPU를 비롯한 자원을 배분한다. 이를 위해 운영체제는 **프로세스 제어 블록(PCB)**을 이용한다.
 
@@ -36,17 +36,17 @@
 - **메모리 관리 정보** : 프로세스마다 메모리에 저장된 위치가 다르다. 그래서 프로세스가 어느 주소에 저장되어 있는지에 대한 정보가 있어야 한다. 
 - **사용자 파일과 입출력장치 목록** : 프로세스가 실행 과정에서 특정 입출력장치나 파일을 사용하면 PCB에 해당 내용이 명시된다. 즉, 어떤 입출력장치가 이 프로세스에 할당되었는지, 어떤 파일들을 열었는지에 대한 정보들이 PCB에 기록된다.
 
-![9-4](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-4.jpg)
+![9-4](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-4.jpg)
 
 ### 문맥교환
 
 하나의 프로세스 수행을 재개하기 위해 기억해야 할 정보를 **문맥**이라고 한다. 하나의 프로세스 문맥은 해당 프로세스의 PCB에 표현되어 있다. 
 
-![9-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-5.jpg)
+![9-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-5.jpg)
 
 기존 프로세스의 문맥을 PCB에 백업하고, 새로운 프로세스를 실행하기 위해 문맥을 PCB로부터 복구하여 새로운 프로세스를 실행하는 것을 **문맥교환**이라 한다.
 
-![9-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-6.jpg)
+![9-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-6.jpg)
 
 문맥 교환은 여러 프로세스가 끊임없이 빠르게 번갈아 가며 실행되는 원리이다. 문맥 교환이 자주 일어나면 프로세스는 그만큼 빨리 번갈아 가며 수행되기 때문에 눈에는 프로세스들이 동시에 실행되는 것처럼 보인다.
 
@@ -78,11 +78,11 @@
 
 **프로세스 상태 다이어그램**
 
-![9-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-7.jpg)
+![9-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-7.jpg)
 
 ### 프로세스 계층 구조
 
-![9-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-8.jpg)
+![9-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-8.jpg)
 
 프로세스는 실행 도중 시스템 호출을 통해 다른 프로세스를 생성할 수 있다. 이때 새 프로세스를 생성한 프로세스를 **부모 프로세스**, 부모 프로세스에 의해 생성된 프로세스를 **자식 프로세스**라 한다.
 
@@ -92,7 +92,7 @@
 
 부모 프로세스를 통해 생성된 자식 프로세스들은 **복제와 옷 갈아입기**를 통해 실행된다. 즉 부모 프로세슨는 **fork**를 통해 자신의 복사본을 자식 프로세스로 생성해내고, 만들어진 복사본은 **exec**를 통해 자신의 메모리 공간을 다른 프로그램으로 교체한다.
 
-![9-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-9.jpg)
+![9-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-9.jpg)
 
 ## 10-3 스레드
 
@@ -100,18 +100,18 @@
 
 ### 프로세스와 스레드
 
-![9-10](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-10.jpg)
+![9-10](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-10.jpg)
 
 - **단일 스레드 프로세스** : '실행의 흐름 단위가 하나'라는 점에서 실행되는 프로세스
 - **멀티 스레드 프로세스** : 하나의 프로세스가 한 번에 여러 일을 동시에 처리하는 프로세스
 
-![9-11](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-11.jpg)
+![9-11](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-11.jpg)
 
 스레드는 프로세스 내에서 각기 다른 스레드ID, 프로그램 카운터 값을 비롯한 리제스터 값, 스택으로 구성된다. 각자 프로그램 카운터 값을 비롯한 레지스터 값, 스택을 가지고 있기에 스레드마다 각기 다른 코드를 실행할 수 있다. 여기서 중요한 점은 **프로세스의 스레드들은 실행에 필요한 최소한의 정보만을 유지한 채 프로세스 자원을 공유하며 실행된다는 점**이다.
 
 ### 멀티프로세스와 멀티스레드
 
-![9-12](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\9-12.jpg)
+![9-12](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/9-12.jpg)
 
 - **멀티프로세스** : 여러 프로세스를 동시에 실행하는 것
 - **멀티스레드** : 여러 스레드로 프로세스를 동시에 실행하는 것
