@@ -9,11 +9,11 @@
 
 운영체제는 인터넷 브라우저, 게임과 같은 프로그램이다. 그래서 운영체제 또는 여느 프로그램과 마찬가지로 메모리에 적재되어야 한다.
 
-![8-1](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-1.jpg)
+![8-1](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-1.jpg)
 
 운영체제는 특별한 프로그램이기 때문에 항상 컴퓨터가 부팅될 때 메모리 내 **커널 영역**이라는 공간에 따로 적재되어 실행된다. 커널 영역을 제외한 나머지 영역, 사용자가 이용하는 응용 프로그램이 적재되는 영역을 **사용자 역역**이라고 한다. 즉, 운영체제는 커널 영역에 적재되어 사용자 영역에 적재된 프로그램들에 자원을 할당하고 이들이 올바르게 실행되도록 돕는다.
 
-![8-2](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-2.jpg)
+![8-2](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-2.jpg)
 
 **운영체제 하는 일**
 
@@ -23,7 +23,7 @@
 
 정리하면 운영체제는 응용 프로그램과 하드웨어 사이에서 응용 프로그램에 필요한 자원을 할당하고, 응용 프로그램이 올바르게 실행되도록 관리하는 역할을 한다.
 
-![8-3](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-3.jpg)
+![8-3](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-3.jpg)
 
 운영체제는 흔히 정부에 비유되기도 한다. 한 나라의 정부는 땅, 인력, 돈 등 국내 자원을 효율적으로 배분하고, 국민들이 지켜야 할 규칙을 만들어 나라 전체를 관리한다. 운영체제도 마찬가지로 응용 프로그램에 자원을 효율적으러 배분하고, 실행할 프로그램들이 지켜야 할 규칙을 만들어 컴퓨터 시스템 전체를 관리한다. 또한 운영체제의 어느 한 부분에서는 CPU를, 어느 한 부분에서는 메모리를, 어느 한 부분에서는 하드 디스크를 관리한다.
 
@@ -39,7 +39,7 @@
 
 운영체제는 현존하는 프로그램 중 규모가 가장 큰 프로그램 중 하나이다. 운영체제의 핵심 서비스는 자원에 접근하고 조작하는 기능, 프로그램이 올바르고 안전하게 실행되게 하는 기능이다. 이러한 운영체제의 핵심 서비스를 담당하는 부분을 **커널**이라고 한다.
 
-![8-5](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-5.jpg)
+![8-5](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-5.jpg)
 
 운영체제가 설치된 모든 기기에는 커널이 있다. 어떤 커널을 사용하는지에 따라 실행하고 개발하는 프로그램이 하드웨어를 이용하는 양상이 달라지고, 결과적으로 컴퓨터 전체의 성능도 달라질 수 있다.
 
@@ -61,11 +61,11 @@
  	1. **사용자 모드** : 운영체제 서비스를 제공받을 수 없는 실행 모드, 즉 커널 영역의 코드를 실행할 수 없는 모드이다. 일반적인 응용 프로그램은 기본적으로 사용자 모드로 실행된다.
  	2. **커널 모드** : 운영체제 서비스를 제공받을 수 있는 실행 모드, 즉 커널 영역의 코드를 실행할 수 있는 모드이다. CPU가 커널 모드로 명령어를 실행하면 자원에 접근하는 명령어를 비롯한 모든 명령어를 실행할 수 있다.
 
-![8-6](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-6.jpg)
+![8-6](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-6.jpg)
 
 사용자 모드로 실행되는 프로그램이 자원에 접근하는 운영체제 서비스를 제공받으려면 운영체제에 요청을 보내 커널 모드로 전환되어야 한다. 
 
-![8-7](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-7.jpg)
+![8-7](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-7.jpg)
 
 이때 운영체제 서비스를 제공받기 위한 요청을 **시스템호출**이라고 한다. 사용자 모드로 실행되는 프로그램은 시스템 호출을 통해 커널 모드로 전환되어 운영체제 서비스를 제공받을 수 있다.
 
@@ -103,8 +103,7 @@
 
 **운영체제 기능의 응용 소프트웨어, 소프트웨어, 하드웨어의 계층적 구조**
 
-![8-9](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-9.jpg)
-
+![8-9](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-9.jpg)
 ### 좀 더 알아보기 : 가상 머신과 이중 모드의 발전
 
 **가상 머신** : 이름 그대로 소프트웨어적으로 만들어낸 가상 컴퓨터이다.
@@ -113,7 +112,7 @@
 
 가상 머신을 설치 및 실행한다면, 그 가상 머신 또한 응용 프로그램이다. 그래서 사용자 모드로 작동한다. 가상 머신에 설치된 응용 프로그램이 운영체제 서비스를 ㅔㅈ공받기 위해서는 커널 모드로 전환되어야 한다. 
 
-![8-8](C:\Users\pc\Desktop\HIPS\Linux\컴퓨터 구조 & 운영체제\컴퓨터 구조 & 운영체제 image\8-8.jpg)
+![8-8](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20image/8-8.jpg)
 
 가상화를 지원하는 CPU는 커널 모드와 사용자 모드 이외에 가상 머신을 위한 모드인 하이퍼 바이저 모드를 따로 둔다. 이로써 가상 머신 상에서 작동하는 응용 프로그램들은 하이퍼바이저 모드로써 가상 머신에 설치된 운영체제로부터 운영체제 서비스를 받을 수 있다.
 
