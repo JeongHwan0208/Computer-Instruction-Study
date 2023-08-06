@@ -1,4 +1,4 @@
-# Computer-Instruction/operating-system
+# Computer-Instruction
 [Chapter 01 컴퓨터 구조 시작하기](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%2001%20%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0.md)<br/>
 [Chapter 02 데이터](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%2002%20%EB%8D%B0%EC%9D%B4%ED%84%B0.md)<br/>
 [Chapter 03 명령](https://github.com/JeongHwan0208/Computer-Instruction-operating-system/blob/main/Linux/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0%20%26%20%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/Chapter%2003%20%EB%AA%85%EB%A0%B9%EC%96%B4.md)<br/>
